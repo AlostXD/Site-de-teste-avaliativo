@@ -1,0 +1,148 @@
+* {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+body {
+    background-color: #545454;
+}
+
+header {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#logo {
+    max-width: 96px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-logo {
+    color: #f5a000;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #7B7B7B;
+    border-radius: 12px;
+    border: 5px solid #f5a000;
+}
+
+.container-esquerda-cima {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    border-bottom: 1px solid #fff;
+    padding: 20px;
+}
+
+.container-esquerda-cima p {
+    padding: 12px 16px;
+    color: #fff;
+    background-color: #282828;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    max-width: 399px;
+}
+
+.container-esquerda-cima h2 {
+    color: #f5a000;
+    max-width: 401px;
+}
+
+.saibamais {
+    text-decoration: none;
+    color: #f5a000;
+    background-color: #282828;
+    border-radius: 12px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.container-direita-cima {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+.container-direita-cima h1 {
+    color: #f5a000;
+}
+
+.container-esquerda-baixo {
+    color: #f5a000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #fff;
+    padding: 20px;
+}
+
+.textos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.container-esquerda-baixo img {
+    max-width: 58px;
+}
+
+.fotos-direita-baixo {
+    max-width: 41px;
+}
+
+.container-direita-baixo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtos {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 12px 16px;
+    background-color: #363636;
+    padding: 8px 12px;
+    border-radius: 12px;
+    border: 1px solid #000;
+}
+
+.produtos:hover {
+    border-left: 5px solid #f5a000;
+    transition: 0.5s ease;
+}
+
+.produtos p {
+    padding-left: 5px;
+    color: #fff;
+}
