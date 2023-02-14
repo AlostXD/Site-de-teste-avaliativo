@@ -163,5 +163,6 @@ main {
     }
     .container-direita-baixo, .container-direita-cima, .container-esquerda-baixo, .container-esquerda-cima {
         border: 1px solid #fff;
+        border-radius: 12px;
     }
 }
